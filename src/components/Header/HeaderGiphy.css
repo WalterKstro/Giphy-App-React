@@ -1,0 +1,14 @@
+.header{
+    height: 8rem;
+    background-color: #20232a;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 2rem;
+    color: white;
+    margin-bottom:2rem;
+}
+.figure img{
+    width: 5rem;
+}
