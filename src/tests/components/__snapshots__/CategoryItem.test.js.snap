@@ -5,8 +5,13 @@ exports[`tests in componente <CategoryItem/> should show correctly the component
   className="grid__item animate__animated animate__fadeInLeft"
 >
   <figure>
-    <img />
-    <figcaption />
+    <img
+      alt="naruto shippuden GIF"
+      src="https://media2.giphy.com/media/4gsjHZMPXdlGo/giphy.gif?cid=78531bbftw97gr2ypzgv1ae9i7nds2onndui22hxil9rj5wt&rid=giphy.gif&ct=g"
+    />
+    <figcaption>
+      naruto shippuden GIF
+    </figcaption>
   </figure>
 </div>
 `;

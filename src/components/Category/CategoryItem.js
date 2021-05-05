@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 const CategoryItem = ({url,title}) => {
     return (
         <div className="grid__item animate__animated animate__fadeInLeft">
@@ -10,5 +12,11 @@ const CategoryItem = ({url,title}) => {
         </div>
     )
 }
+
+CategoryItem.propTypes = {
+    url: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired
+}
+
 
 export default CategoryItem
