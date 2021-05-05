@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests in componente <CategoryItem/> should show correctly the component <CategoryItem/> 1`] = `
+<div
+  className="grid__item animate__animated animate__fadeInLeft"
+>
+  <figure>
+    <img />
+    <figcaption />
+  </figure>
+</div>
+`;
