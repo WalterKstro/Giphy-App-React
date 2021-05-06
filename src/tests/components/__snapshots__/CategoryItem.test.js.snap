@@ -7,7 +7,7 @@ exports[`tests in componente <CategoryItem/> should show correctly the component
   <figure>
     <img
       alt="naruto shippuden GIF"
-      src="https://media2.giphy.com/media/4gsjHZMPXdlGo/giphy.gif?cid=78531bbftw97gr2ypzgv1ae9i7nds2onndui22hxil9rj5wt&rid=giphy.gif&ct=g"
+      src="https://lorempixel.com"
     />
     <figcaption>
       naruto shippuden GIF
