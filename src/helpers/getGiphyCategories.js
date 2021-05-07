@@ -1,4 +1,4 @@
-const getGiphyCategories = async (category) => {
+const getGiphyCategories = async (category = '') => {
     const limit = 8
     try {
         const response = await fetch(`https://api.giphy.com/v1/gifs/search?q=${encodeURI(category)}&limit=${limit}&api_key=EjXWAPk9oq27iEEau4MvObuxzG7ezM93`)
