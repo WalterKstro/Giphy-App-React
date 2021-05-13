@@ -12,6 +12,7 @@ const AddCategory = ({setCategories}) => {
 
     const handleSubmit = event => {
         event.preventDefault()
+
         if(valueInput.trim() !== '') {
             setCategories( state => [valueInput,...state] )
             setValueInput('')
@@ -20,6 +21,7 @@ const AddCategory = ({setCategories}) => {
     
     return (
         <form onSubmit={handleSubmit} className="form_add">
+            <p>{valueInput}</p>
             <input 
                 type="text"
                 placeholder="Add new category"
