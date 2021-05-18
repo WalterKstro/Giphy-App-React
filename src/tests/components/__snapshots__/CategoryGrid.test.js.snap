@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing in the component <CategoryGrid/> should show a snaptshot of component <CategoryGrid/> 1`] = `
+<div
+  className="category_item"
+>
+  <p
+    className="category_title"
+  >
+    Category: 
+    <strong>
+      Naruto
+    </strong>
+  </p>
+  <p
+    className="loadding"
+  >
+    Loadding data ...
+  </p>
+</div>
+`;
+
+exports[`Testing in the component <CategoryGrid/> should show item with the data 1`] = `
+<div
+  className="category_item"
+>
+  <p
+    className="category_title"
+  >
+    Category: 
+    <strong>
+      Naruto
+    </strong>
+  </p>
+  <CategoryItem
+    id="_se56qs23"
+    key="_se56qs23"
+    title="Naruto"
+    url="www.facebook.com"
+  />
+</div>
+`;
