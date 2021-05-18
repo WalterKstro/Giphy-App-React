@@ -20,7 +20,7 @@ exports[`Testing in the component <CategoryGrid/> should show a snaptshot of com
 </div>
 `;
 
-exports[`Testing in the component <CategoryGrid/> should show item with the data 1`] = `
+exports[`Testing in the component <CategoryGrid/> should show the component <CategoryItem/> if exist data and no should show the tag <p> if data exist 1`] = `
 <div
   className="category_item"
 >
@@ -36,6 +36,12 @@ exports[`Testing in the component <CategoryGrid/> should show item with the data
     id="_se56qs23"
     key="_se56qs23"
     title="Naruto"
+    url="www.facebook.com"
+  />
+  <CategoryItem
+    id="_se5qqs03"
+    key="_se5qqs03"
+    title="One Punch Man"
     url="www.facebook.com"
   />
 </div>
