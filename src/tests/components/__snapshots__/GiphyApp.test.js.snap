@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing component root GiphyApp should show a snaptshot 1`] = `
+<Fragment>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <div
+    className="category"
+  />
+</Fragment>
+`;
+
+exports[`Testing component root GiphyApp should show the same number of components <CategoryGrid/> as the length of the elements of prop array 1`] = `
+<Fragment>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <div
+    className="category"
+  >
+    <GridCategory
+      category="One Punch Man"
+      key="One Punch Man"
+    />
+    <GridCategory
+      category="Naruto"
+      key="Naruto"
+    />
+    <GridCategory
+      category="Futurama"
+      key="Futurama"
+    />
+  </div>
+</Fragment>
+`;

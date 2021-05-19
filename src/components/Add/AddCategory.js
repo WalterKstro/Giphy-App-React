@@ -21,7 +21,6 @@ const AddCategory = ({setCategories}) => {
     
     return (
         <form onSubmit={handleSubmit} className="form_add">
-            <p>{valueInput}</p>
             <input 
                 type="text"
                 placeholder="Add new category"

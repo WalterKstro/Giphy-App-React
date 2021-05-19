@@ -1,11 +1,11 @@
 import './GiphyApp.css'
 import {useState} from 'react'
 import AddCategory from '../Add/AddCategory'
-import CategoryGrid from '../Category/CategoryGrid'
+import GridCategory from '../Category/CategoryGrid'
 
 
-const GiphyApp = () => {
-    const [categories, setCategories] = useState([])
+const GiphyApp = ({categoriesDefault = []}) => {
+    const [categories, setCategories] = useState( categoriesDefault )
     return (
         <>
             <AddCategory 
@@ -14,7 +14,7 @@ const GiphyApp = () => {
             
             <div className="category">
                 {
-                    categories.map( category => <CategoryGrid category={category} key={category} />)
+                    categories.map( category => <GridCategory category={category} key={category} />)
                 }
             </div>
         </>
